@@ -1,6 +1,5 @@
 # 0.4
 
-```marmaid
 sequenceDiagram
 
 User->>browser: write something into the text field (whatever)
@@ -12,6 +11,6 @@ browser->>JavaScript: newElement = document.createElement('li')
 browser->>JavaScript: newElement.textContent = (whatever)
 JavaScript->>browser: list.appendChild(newElement)
 browser->>User: Exibir Lista Atualizada
-```
+
 
 
