@@ -20,5 +20,15 @@ JavaScript->>browser: list.appendChild(newElement)
 // should commit first or changes will disappear if refresh the page
 browser->>User: Exibir Lista Atualizada
 ````
-
+````
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
 
